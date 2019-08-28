@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ca529193-21ef-46a8-87be-baebc48c3dda</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pyautogui_test.py</StartupFile>
+    <StartupFile>choose_myseat.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="choose_myseat.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Pyautogui_test.py" />
   </ItemGroup>
   <ItemGroup>
